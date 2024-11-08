@@ -66,11 +66,14 @@ body{
 		color: #c6ebd3;
 	}
 
-	.navbar a:focus{
+	.navbar a:active{
 		background: white;
-		border-radius: 10px;
+		border-radius: 3px;
 		color: #48564D;
+		width: 20px;
+		height: 10px;
 	}
+
 	.home{
 		position: relative;
 		display: flex;
