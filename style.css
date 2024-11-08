@@ -62,9 +62,14 @@ body{
 		width:100%;
 	}
 	
-	.navbar a:hover, a.active, .navbar a:active{
-		color: #c6ebd3
-;
+	.navbar a:hover, a.active{
+		color: #c6ebd3;
+	}
+
+	.navbar a:focus{
+		background: white;
+		border-radius: 10px;
+		color: #48564D;
 	}
 	.home{
 		position: relative;
