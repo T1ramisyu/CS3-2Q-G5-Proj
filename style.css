@@ -413,3 +413,8 @@ body{
 		height: 100vh;
 	}
 
+	.reference a{
+		text-decoration: none;
+		color: white;
+	}
+
