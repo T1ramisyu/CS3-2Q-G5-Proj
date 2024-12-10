@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	font-family: sans-serif;
+	
 
 }
 
@@ -276,14 +277,17 @@ body{
 
 	#article1{
 		background-image: url(images/img1.jpg);
+		background-attachment: fixed;
 	}
 
 	#article2{
 		background-image: url(images/img2.jpg);
+		background-attachment: fixed;
 	}
 
 	#article3{
 		background-image: url(images/img3.jpg);
+		background-attachment: fixed;
 	}
 
 	.article .opening{
@@ -383,6 +387,7 @@ body{
 	.read-more {
 		height: 100vh;
 		background: url(images/busyroad.png);
+		background-attachment: fixed;
 	}
 
 	#header{
@@ -405,6 +410,11 @@ body{
 		padding-bottom: 1rem;
 	}
 
+	.reference a{
+		text-decoration: none;
+		color: white;
+	}
+
 	.reference ol{
 		padding-left: 4rem;;
 	}
@@ -413,8 +423,15 @@ body{
 		height: 100vh;
 	}
 
-	.reference a{
+	.highlight{
 		text-decoration: none;
-		color: white;
+		color:white;
 	}
 
+	.highlight:hover, .link:hover{
+		color:#c6ebd3;
+	}
+
+	.link:hover{
+		text-decoration: underline;
+	}
